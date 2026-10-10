@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#231224"/>
+      <stop offset="100%" stop-color="#090b12"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ffe1ba" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#ffc7a3" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#090b12" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#sun)"/>
+  <g opacity="0.9">
+    <ellipse cx="570" cy="470" rx="260" ry="170" fill="#f2d2c3" opacity="0.14"/>
+    <ellipse cx="670" cy="470" rx="230" ry="160" fill="#f2d2c3" opacity="0.12"/>
+  </g>
+  <g opacity="0.75" fill="none" stroke="#f9d6bd" stroke-width="3">
+    <path d="M370 420c36-104 116-156 214-156 106 0 182 62 219 152"/>
+    <path d="M700 420c32-84 110-138 192-138 88 0 154 52 194 142"/>
+  </g>
+  <g font-family="Georgia, serif" fill="#fdf4ff" text-anchor="middle">
+    <text x="600" y="790" font-size="52" letter-spacing="5">Forever Us</text>
+  </g>
+</svg>

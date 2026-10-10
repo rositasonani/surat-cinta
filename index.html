@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Dexter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="locked">
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <div id="youtube-player-wrap" class="youtube-player hidden" aria-label="Background music player">
+      <iframe
+        id="youtube-player"
+        title="Background music"
+        src=""
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="lock-screen" aria-label="Password lock screen">
+      <div class="lock-card">
+        <p class="lock-kicker">Private Letter</p>
+        <h2>Enter the anniversary code</h2>
+        <form id="unlock-form" class="unlock-form">
+          <input
+            id="passcode"
+            type="password"
+            inputmode="numeric"
+            maxlength="4"
+            autocomplete="off"
+            placeholder="••••"
+            aria-label="Passcode"
+          />
+          <button type="submit">Open My Letter</button>
+        </form>
+        <p id="lock-message" class="lock-message" aria-live="polite">Only for the two of us.</p>
+      </div>
+    </div>
+
+    <div class="heart-layer" aria-hidden="true">
+      <span class="heart heart-1">❤</span>
+      <span class="heart heart-2">❤</span>
+      <span class="heart heart-3">❤</span>
+      <span class="heart heart-4">❤</span>
+      <span class="heart heart-5">❤</span>
+    </div>
+
+    <main class="page-shell letter-card">
+      <div class="story-tag">Our love story</div>
+
+      <div class="photo-gallery">
+        <div class="photo-frame primary" aria-label="Our memory photo one">
+          <img src="49CE5DF2-6953-4685-8C15-CC094A4EAD31_1_102_o.jpeg" alt="Rosita and Dexter memory one" />
+        </div>
+
+        <div class="photo-frame secondary" aria-label="Our memory photo two">
+          <img src="307CF9E8-B6EB-433E-A577-A79830B2CCE9_1_105_c.jpeg" alt="Rosita and Dexter memory two" />
+        </div>
+
+        <div class="photo-frame tertiary" aria-label="Our memory photo three">
+          <img src="1EFB3CB0-22E7-4000-B6F4-397436E88F74_1_105_c.jpeg" alt="Rosita and Dexter memory three" />
+        </div>
+
+        <div class="photo-frame quaternary" aria-label="Our memory photo four">
+          <img src="CDA8A66C-963C-469C-8234-60F826F07960_1_102_o.jpeg" alt="Rosita and Dexter memory four" />
+        </div>
+      </div>
+
+      <p class="kicker">For My Boyfriend</p>
+      <h1>Dexter</h1>
+
+      <section class="letter" aria-label="Love letter to Dexter">
+        <p>
+          Dexter, my love, every time I think about you, my heart feels softer, warmer,
+          and a little more full. You are my favorite person, my safe place, and the one
+          who makes even ordinary days feel magical. Being with you feels like the greatest
+          gift I never knew I needed.
+        </p>
+
+        <p>
+          I love the way you make me smile without even trying. The way you listen,
+          the way you care, the way you make me feel seen and truly loved — it all means
+          so much to me. You have such a beautiful heart, and loving you has become one
+          of the sweetest parts of my life.
+        </p>
+
+        <p>
+          I cherish every little moment with you: the laughter, the comfort, the quiet
+          closeness, and the feeling that when I am with you, everything in the world
+          becomes a little more peaceful. You make my life brighter, gentler, and more
+          beautiful just by being in it.
+        </p>
+
+        <p>
+          Dexter, I am so grateful for you. Thank you for being kind, for being patient,
+          for being you. My heart belongs to you in the sweetest, most honest way, and I
+          hope you always know how deeply and truly I love you. You are my dream, my comfort,
+          and the person I want to keep choosing every single day.
+        </p>
+
+        <p class="closing">
+          Always yours,<br />
+          <span>Your girl, Rosita</span>
+        </p>
+      </section>
+
+      <button id="music-toggle" class="music-toggle" type="button" aria-label="Play background music">
+        Play our song
+      </button>
+
+      <div class="forever-section">
+        <span>Forever Us</span>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
